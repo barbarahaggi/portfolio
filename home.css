@@ -221,8 +221,9 @@ header .scroll-bar{
 
 .about .row .personal-info .box-container{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-wrap:wrap ;
+    justify-content:space-between;
+   
 }
 
 .about .row .personal-info .box-container .box{
@@ -264,52 +265,6 @@ header .scroll-bar{
     padding:.5rem 0;
 }
 
-.service{
-    background:#f9f9f9;
-}
-
-.service .box-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.service .box-container .box{
-    border:.1rem solid rgba(0,0,0,.2);
-    border-radius: .5rem;
-    box-shadow:  0 .5rem 1rem rgba(0,0,0,.1);
-    margin:1.5rem;
-    padding:2.5rem;
-    background:linear-gradient(79deg, rgba(255, 71, 87,.2) 50%, #fff 50.1%);
-    position: relative;
-    z-index: 0;
-    flex:1 1 30rem;
-}
-
-.service .box-container .box .number{
-    font-size: 7rem;
-    color:rgba(0,0,0,.05);
-    position: absolute;
-    top:-1rem; right:1rem;
-    z-index: -1;
-    font-weight: bolder;
-}
-
-.service .box-container .box:hover .number{
-    font-size: 9rem;
-}
-
-.service .box-container .box h3{
-    font-size: 2.4rem;
-    color:#333;
-}
-
-.service .box-container .box p{
-    font-size: 1.5rem;
-    color:#666;
-    padding:1rem 0;
-}
 
 .education .row{
     display: flex;
@@ -372,7 +327,7 @@ header .scroll-bar{
 .btn-2{
     display: inline-block;
     border-radius: 5rem;
-    background:#FFB6C1;
+    background: #DB7093;
     color:#fff;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
     padding:.7rem 3rem;
@@ -389,7 +344,7 @@ header .scroll-bar{
     top:0;
     height: 100%;
     width:0%;
-    background:var(--pink);
+    background: #FFB6C1;
     z-index: -1;
     transition: .3s linear;
 }

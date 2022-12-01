@@ -73,6 +73,7 @@
 
         </div>
 
+
         <div class="personal-info">
 
             <h3 class="title">personal info</h3>
@@ -81,13 +82,15 @@
 
                 <div class="box">
                     <h3> <span> full name : </span> Barbara Teixeira Oliveira </h3>
-                    <h3> <span> age : </span> 20 years </h3>
-                    <h3> <span> email : </span> barbarahagi3@iclould.com </h3>
+                    <h3> <span> age : </span> twenty years </h3>
+                
                     <h3> <span> phone : </span> +353 (0) 87 1115 1050 </h3>
+                    <h3> <span> email : </span> barbarahagi3@iclould.com </h3>
                 </div>
                 <div class="box">
-                    <h3> <span> address : </span> Ireland </h3>
+                    
                     <h3> <span> language : </span> portuguese, english, spanish </h3>
+                    <h3> <span> address : </span> Ireland </h3>
                 </div>
 
             </div>
@@ -115,15 +118,17 @@
             <h3 class="title">my education</h3>
 
             <div class="box">
+                <div class="year"> <i class="fas fa-calendar"></i> nov/2022 - jun/2023 </div>
+                <h3>Oracle + Alura (ONE- oracle next education</h3>
+                <p>Web Development.</p>
+            </div>
+
+            <div class="box">
                 <div class="year"> <i class="fas fa-calendar"></i> 2022 - 2022 </div>
                 <h3>Rocketseat</h3>
                 <p>learning curriculum includes: fundamentals of programming, computer operation, internet and more.</p>
             </div>
-            <div class="box">
-                <div class="year"> <i class="fas fa-calendar"></i> 2022 - 2023 </div>
-                <h3>Oracle + Alura (ONE- oracle next education</h3>
-                <p>Web Development.</p>
-            </div>
+
             <div class="box">
                 <div class="year"> <i class="fas fa-calendar"></i> 2019 </div>
                 <h3>Honor - Social technology project</h3>
@@ -171,42 +176,42 @@
 
     <div class="box-container">
 
-        <a href="#" class="box">
+        <a href="https://barbarahaggi.github.io/barbara-flix/" class="box">
             <img src="/projects-files/barbara-flix.png" alt="">
             <div class="info">project 01</div>
         </a>
 
-        <a href="https://github.com/barbarahaggi/landing-page.git" class="box">
+        <a href="https://barbarahaggi.github.io/landing-page/" class="box">
             <img src="/projects-files/landing-page.png" alt="">
             <div class="info">project 02</div>
         </a>
 
-        <a href="#" class="box">
+        <a href="https://barbarahaggi.github.io/link-tree/" class="box">
             <img src="/projects-files/linktree.png" alt="">
             <div class="info">project 03</div>
         </a>
 
-        <a href="#" class="box">
+        <a href="https://barbarahaggi.github.io/login-page/" class="box">
             <img src="/projects-files/login-page.png" alt="">
             <div class="info">project 04</div>
         </a>
 
-        <a href="#" class="box">
+        <a href="https://barbarahaggi.github.io/Registration-Form/" class="box">
             <img src="/projects-files/registration-form.png" alt="">
             <div class="info">project 05</div>
         </a>
 
-        <a href="#" class="box">
+        <a href="https://barbarahaggi.github.io/digital-watch/" class="box">
             <img src="/projects-files/relogio-digital.png" alt="">
             <div class="info">project 06</div>
         </a>
 
-        <a href="#" class="box">
+        <a href="https://barbarahaggi.github.io/Dev-s-form/" class="box">
             <img src="/projects-files/form.png" alt="">
             <div class="info">project 07</div>
         </a>
 
-        <a href="#" class="box">
+        <a href="https://barbarahaggi.github.io/guessing-game/" class="box">
             <img src="/projects-files/guessing-game.png" alt="">
             <div class="info">project 08</div>
         </a>
@@ -225,34 +230,36 @@
 
     <div class="row">
 
-        <form action="">
-
+        <form action="https://api.staticforms.xyz/submit" method="post">
+        <input type="hidden" name="accessKey" value="322fd53e-4392-401b-bc5e-9381af9435a9">
+        <input type="hidden" name="redirectTo" value="https://example.com/contact/success">
+          
             <div class="inputBox">
-                <input type="text" required>
+                <input type="text" name="name" required>
                 <label>name</label>
             </div>
 
             <div class="inputBox">
-                <input type="email" required>
+                <input type="email" name="email" required>
                 <label>email</label>
             </div>
 
             <div class="inputBox">
-                <input type="number" required>
+                <input type="number" name="telefone">
                 <label>phone</label>
             </div>
 
             <div class="inputBox">
-                <input type="text" required>
+                <input type="text" name="subject" required>
                 <label>subject</label>
             </div>
 
             <div class="inputBox">
-                <textarea required name="" id="" cols="30" rows="10"></textarea>
+                <textarea required name="message" id="" cols="30" rows="10"></textarea>
                 <label>message</label>
             </div>
 
-            <input type="submit" value="send message" class="btn">
+            <input type="submit" value="send message" name="submit" class="btn">
             
 
         </form>
