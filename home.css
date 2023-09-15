@@ -2,7 +2,7 @@
 
 
 :root{
-    --pink:#DB7093;
+    --pink:	#FF00FF;
 }
 
 *{
@@ -16,6 +16,7 @@
     font-weight: normal;
     text-transform: capitalize;
 }
+
 
 *::selection{
     background:var(--pink);
@@ -37,7 +38,7 @@ section{
 .btn{
     display: inline-block;
     border-radius: 5rem;
-    background:#444;
+    background:#D8BFD8;
     color:#fff;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
     padding:.7rem 3rem;
@@ -207,11 +208,15 @@ header .scroll-bar{
 }
 
 .about .row .progress-bar .progress:nth-child(3) .bar span{
-    width:85%;
+    width:95%;
 }
 
 .about .row .progress-bar .progress:nth-child(4) .bar span{
-    width:60%;
+    width:70%;
+}
+
+.about .row .progress-bar .progress:nth-child(5) .bar span{
+    width:50%;
 }
 
 .about .row .personal-info{
@@ -327,7 +332,7 @@ header .scroll-bar{
 .btn-2{
     display: inline-block;
     border-radius: 5rem;
-    background: #DB7093;
+    background: #D8BFD8;
     color:#fff;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
     padding:.7rem 3rem;
@@ -344,7 +349,7 @@ header .scroll-bar{
     top:0;
     height: 100%;
     width:0%;
-    background: #FFB6C1;
+    background: var(--pink);
     z-index: -1;
     transition: .3s linear;
 }
@@ -557,6 +562,10 @@ header .scroll-bar{
 
     header .navbar{
         width:70%;
+    }
+
+    .home{
+        background-image: none;
     }
 
 }
