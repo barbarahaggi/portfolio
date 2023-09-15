@@ -127,7 +127,7 @@ header .scroll-bar{
 .home{
     display: flex;
     align-items: center;
-    background:url(/assets/minha\ foto\ png.png) no-repeat;
+    background:url(assets/minha\ foto\ png.png) no-repeat;
     background-size: contain;
     background-position: right;
 }
